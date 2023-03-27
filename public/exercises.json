@@ -1,0 +1,38 @@
+[
+    {
+      "_id": "6421b0ab5171213144904f43",
+      "name": "Lifting Dumble",
+      "about": " ipsum. Qui labore laborum ut dolore duis commodo anim cillum. Elit non dolore do sint.\r\n",
+      "img": "lift-barbels.jpg"
+    },
+    {
+      "_id": "6421b0abd56672d435c18beb",
+      "name": "Lifting Barbells",
+      "about": " amet aliquip ex consectetur eu minim. Ea consequat qui eiusmod adipisicing magna eius.\r\n",
+      "img": "lifting-dumbles.jpg"
+    },
+    {
+      "_id": "6421b0ab6d52553bc5343e58",
+      "name": "Lift Metal Circles",
+      "about": " ex ad laboris deserunt dolor laborum. Lorem in ea duis consectetur mollit minim Lorem.\r\n",
+      "img": "lifting-metal-circles.jpg"
+    },
+    {
+      "_id": "6421b0abeda74f088d59d32a",
+      "name": "Leg strech",
+      "about": " anim esse duis duis laborum enim. Sunt consectetur aliquip aute pariatur sit occaecat.\r\n",
+      "img": "strech-up-leg.jpg"
+    },
+    {
+      "_id": "6421b0abe5d3e63fa2dc13dc",
+      "name": "An On Tradmaill",
+      "about": "aanim esse duis duis laborum enim. Sunt consectetur aliquip aute pariatur sit occaecat.\r\n",
+      "img": "Tradmaill.jpg"
+    },
+    {
+      "_id": "6421b0aba6fc0a64c3c6b820",
+      "name": "More Exercise",
+      "about": "Lorem amet. Nostrud irure anim et ullamco ea aliqua. Excepteur minim irure ipsum incid.\r\n",
+      "img": "more-exersize.jpg"
+    }
+  ]

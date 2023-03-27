@@ -1,0 +1,12 @@
+.card-container{
+    display: flex;
+    justify-content: space-between;
+}
+.cards{
+    width: 75%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+.calculate{
+    width: 25%;
+}

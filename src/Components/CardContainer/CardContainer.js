@@ -34,7 +34,7 @@ const CardContainer = () => {
         <div className='bg-top'>
             <h2>Select today's exercise</h2>
             <div className='card-container'>
-                <div className="">
+                <div>
                     <div className='cards'>
                         {
                             exercises.map(exercise => <Card exercise={exercise} key={exercise.id} handler={handler}></Card>)
@@ -42,7 +42,7 @@ const CardContainer = () => {
                     </div>
                 </div>
                 <div className='calculate'>
-                    <div className='d-flex'>
+                    <div className='d-flex padding'>
                         <img className='myImg' src={myImg} alt="" />
                         <div>
                             <p><strong>Jawad Jabbar Khan Authoi</strong></p>

@@ -39,9 +39,6 @@ const CardContainer = () => {
         toast.success("11m ago", {
             position: 'top-right'
         })
-        toast.warn("no username", {
-            position:"bottom-right"
-        })
     }
     return (
         <div className='bg-top'>

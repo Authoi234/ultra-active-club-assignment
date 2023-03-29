@@ -1,8 +1,22 @@
-.header{
-    display: flex;   
+.position {
+    display: flex;
     justify-content: space-between;
     align-items: center;
 }
-.logo{
+
+.header {
+    display: flex;
+    align-items: center;
+}
+
+.header ul {
+    display: flex;
+}
+
+.header ul li{
+    display: flex;
+}
+
+.logo {
     width: 100px;
 }

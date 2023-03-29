@@ -3,10 +3,114 @@
     justify-content: space-between;
 }
 .cards{
+    height: 100%;
     width: 75%;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
 }
 .calculate{
+    height: 100%;
+    background-color: rgb(255, 255, 238);
+    right: 0;
     width: 25%;
+    text-align: center;
+    position: sticky;
+    top: 0;
+}
+.myImg{
+    width: 80px;
+    display: flex;
+}
+.d-flex{
+    display: flex;
+}
+.information{
+    margin-top: 20px;
+    margin-left: 15px;
+    text-align: center;
+    height: 130px;
+    width: 305px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}
+.information span{
+    text-align: center;
+    padding: 10px 10px;
+    font-size: 20px;
+    color: black;
+}
+.break h3{
+    display: flex;
+    margin-left: 20px;
+    justify-content: start;
+}
+.break-container{
+    height: 80px;
+    width: 325px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}
+.break-container div {
+    background-color: rgb(104, 104, 231);
+    padding: 17px;
+    margin: 0 5px;
+    border-radius: 50px;
+    color: white;
+    font-size: 25px;
+}
+.break-container div:active {
+    background-color: rgb(87, 87, 197);
+    padding: 17px;
+    margin: 0 5px;
+    border-radius: 50px;
+    color: white;
+    font-size: 25px;
+}
+.details h3{
+    display: flex;
+    margin-left: 20px;
+    justify-content: start;
+}
+.details-container div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 25px;
+    margin: 0 35px;
+    background-color: white;
+    margin-bottom: 15px;
+}
+.para-style{
+    color: rgb(123, 123, 123);
+}
+.completed-btn{
+    color: white;
+    background-color: aquamarine;
+    padding: 15px 60px;
+    cursor: pointer;
+    border: none;
+    font-size: 17px;
+    transition: 0.5s;
+}
+.completed-btn:hover{
+    color: white;
+    background-color: cyan;
+    padding: 15px 60px;
+    cursor: pointer;
+    border: none;
+    font-size: 18px;
+}
+.completed-btn:active{
+    color: white;
+    background-color: aquamarine;
+    padding: 15px 60px;
+    cursor: pointer;
+    border: none;
+    font-size: 17px;
+    transform: scale(1.2);
 }

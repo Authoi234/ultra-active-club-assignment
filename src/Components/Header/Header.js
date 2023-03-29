@@ -5,7 +5,13 @@ import './Header.css'
 const Header = () => {
     return (
         <div className='position'>
-            <h1 className='header'><img className='logo' src={logo} alt="" /> DAILY EXERCISE</h1>
+            <h3 className='header'><img className='logo' src={logo} alt="" /> <strong>DAILY EXERCISE</strong></h3>
+            <ul>
+                <li>Home</li>
+                <li>About</li>
+                <li></li>
+                <li></li>
+            </ul>
         </div>
     );
 };

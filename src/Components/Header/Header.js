@@ -7,8 +7,8 @@ const Header = () => {
         <div className='position'>
             <h2 className='header'><img className='logo' src={logo} alt="" /> <strong>DAILY EXERCISE</strong></h2>
             <ul>
-                <li><a href="https://https://stellular-selkie-4e641c.netlify.app">Home</a></li>
-                <li><a href="https://">About</a></li>
+                <li><a href="https://stellular-selkie-4e641c.netlify.app/">Home</a></li>
+                <li><a href="https://stellular-selkie-4e641c.netlify.app/">About</a></li>
                 <li><a href="https://">Login</a></li>
                 <li><a href="https://">Services</a></li>
             </ul>

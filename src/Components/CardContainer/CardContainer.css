@@ -9,9 +9,10 @@
     grid-template-columns: repeat(3, 1fr);
 }
 .calculate{
+    position: sticky;
+    top: 0;
     height: 100%;
     background-color: rgb(255, 255, 238);
-    right: 0;
     width: 25%;
     text-align: center;
     border-radius: 10px;
@@ -102,33 +103,70 @@
     padding: 15px 60px;
     cursor: pointer;
     border: none;
-    font-size: 18px;
+    font-size: 17.5px;
 }
 .completed-btn:active{
-    color: white;
     background-color: aquamarine;
-    padding: 15px 60px;
-    cursor: pointer;
-    border: none;
-    font-size: 17px;
-    transform: scale(1.2);
+    transform: scale(1.1);
 }
 .padding{
     padding: 10px;
+    text-align: center;
 }
 
 @media screen and (min-width: 1066px) and (max-width: 1280px) {
     .cards{
-        width: 66.6666666666;
+        width: 60%;
         display: grid;
         grid-template-columns: repeat(2, 1fr);
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        
     }
     .calculate{
         height: 100%;
         background-color: rgb(255, 255, 238);
         right: 0;
-        width: 3.3333333333%;
+        width: 40%;
         text-align: center;
         border-radius: 10px;
+    }
+}
+
+@media screen and (min-width: 777px) and (max-width: 1066px) {
+    .cards{
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        margin-top: 400px;
+    }
+    .calculate{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        position: absolute;
+        top: 0;
+        background-color: rgb(255, 255, 238);
+        width: 100vw;
+    }
+}
+@media screen and (max-width: 777px) {
+    .cards{
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        margin-top: 500px;
+    }
+    .calculate{
+        display: block;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        position: absolute;
+        top: 0;
+        background-color: rgb(255, 255, 238);
+        width: 100vw;
     }
 }

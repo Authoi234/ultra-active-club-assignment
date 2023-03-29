@@ -2,6 +2,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    background-color: rgb(255, 254, 245);
 }
 
 .header {
@@ -9,12 +10,21 @@
     align-items: center;
 }
 
-.header ul {
+.position ul {
     display: flex;
 }
 
-.header ul li{
-    display: flex;
+.position ul li a{
+    padding-right: 40px;
+    margin-right: 30px;
+    font-size: 20px;
+    font-weight: 700;
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+}
+.position ul li{
+    list-style: none;
 }
 
 .logo {

@@ -14,8 +14,6 @@
     right: 0;
     width: 25%;
     text-align: center;
-    position: sticky;
-    top: 0;
     border-radius: 10px;
 }
 .myImg{
@@ -116,5 +114,21 @@
     transform: scale(1.2);
 }
 .padding{
-    padding: 13px 13px;
+    padding: 10px;
+}
+
+@media screen and (min-width: 1066px) and (max-width: 1280px) {
+    .cards{
+        width: 66.6666666666;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .calculate{
+        height: 100%;
+        background-color: rgb(255, 255, 238);
+        right: 0;
+        width: 3.3333333333%;
+        text-align: center;
+        border-radius: 10px;
+    }
 }

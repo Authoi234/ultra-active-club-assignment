@@ -5,12 +5,12 @@ import './Header.css'
 const Header = () => {
     return (
         <div className='position'>
-            <h3 className='header'><img className='logo' src={logo} alt="" /> <strong>DAILY EXERCISE</strong></h3>
+            <h2 className='header'><img className='logo' src={logo} alt="" /> <strong>DAILY EXERCISE</strong></h2>
             <ul>
-                <li>Home</li>
-                <li>About</li>
-                <li>Login</li>
-                <li>Services</li>
+                <li><a href="https://">Home</a></li>
+                <li><a href="https://">About</a></li>
+                <li><a href="https://">Login</a></li>
+                <li><a href="https://">Services</a></li>
             </ul>
         </div>
     );

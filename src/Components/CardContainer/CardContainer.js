@@ -4,6 +4,8 @@ import './CardContainer.css'
 import Card from '../Card/Card';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faLocationDot } from '@fortawesome/free-solid-svg-icons'
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 const CardContainer = () => {
     const [exercises, setExercises] = useState([]);
@@ -22,6 +24,7 @@ const CardContainer = () => {
     }
 
     const addToDb = (item) => {
+        localStorage.setItem('breakTimeNum', JSON.stringify(0))
         localStorage.setItem('breakTimeNum', JSON.stringify(item));
     }
 
@@ -29,7 +32,17 @@ const CardContainer = () => {
         setExerciseBreak(parseInt(e.target.innerText));
         addToDb(exerciseBreak)
     }
-
+    const toastHandler = () => {
+        toast("Congratulations! you are complete you task", {
+            position: 'top-center'
+        })
+        toast.success("11m ago", {
+            position: 'top-right'
+        })
+        toast.warn("no username", {
+            position:"bottom-right"
+        })
+    }
     return (
         <div className='bg-top'>
             <h2>Select today's exercise</h2>
@@ -73,7 +86,8 @@ const CardContainer = () => {
                                 <div><h5>Break time</h5> <p className='para-style'>{JSON.parse(localStorage.getItem('breakTimeNum'))}s</p></div>
                             </div>
                         </div>
-                        <button className='completed-btn'>Activity Completed</button>
+                        <button onClick={toastHandler} className='completed-btn'>Activity Completed</button>
+                        <ToastContainer />
                     </div>
                 </div>
             </div>

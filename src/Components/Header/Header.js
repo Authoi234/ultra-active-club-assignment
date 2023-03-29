@@ -9,8 +9,8 @@ const Header = () => {
             <ul>
                 <li>Home</li>
                 <li>About</li>
-                <li></li>
-                <li></li>
+                <li>Login</li>
+                <li>Services</li>
             </ul>
         </div>
     );
